@@ -1,0 +1,15 @@
+1. Design pattersns of "Emitter", "Observer" and a few choosen ones.
+2. Implement a flat map of a 4 dimmensions array (Could be more than 4)
+3. Create an alternative to "bind", "call" and "apply"
+4. Given the following code Implement "promisly"
+
+function devide(a, b, cb) {
+    var devideMe = a/b;
+    return cb(devideMe);
+}
+
+function promisly(func) {
+
+}
+
+promisly(devide)(10, 2).then((res) => console.log(res));
